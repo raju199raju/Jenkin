@@ -7,7 +7,6 @@ pipeline {
                 echo "Packer AMI pipeline"
             }
         }
-    }
 
     stage('Azure deployment'){
         steps {
@@ -17,6 +16,7 @@ pipeline {
     stage('upload to SIG'){
         steps {
             echo "SIG in azure pipeline"
+    }
     }
     }
 }
