@@ -11,12 +11,12 @@ pipeline {
 
     stage('Azure deployment'){
         steps {
-        echo ("deployment in azure pipeline")
+        echo "deployment in azure pipeline"
     }
     }
     stage('upload to SIG'){
         steps {
-            echo ("SIG in azure pipeline")
+            echo "SIG in azure pipeline"
     }
     }
 }
